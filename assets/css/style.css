@@ -25,6 +25,26 @@ header {
 
 }
 
+@media (max-width:963px) {
+                header{
+                    font-size: 10px;
+                    padding: 10px 20px;
+                    
+                }
+}
+
+@media (max-width:612px) {
+                header{
+                    font-size: 10px;
+                    padding: 10px 10px;
+                    width: 100%;
+    
+                    
+                    
+                }
+}
+
+
 .logo {
     font-size: 2em;
     color: #df4f0d;
@@ -36,7 +56,6 @@ header {
 .navigation a {
     position: relative;
     top: 10px;
-    ;
     font-size: 1.5em;
     color: wheat;
     text-decoration: none;
@@ -74,10 +93,13 @@ section {
     margin-left: 15%;
     height: 300px;
     text-align: center;
-    padding: 50px;
+    padding: 50px ;
+    margin-bottom: 200px;
 
 
 }
+
+
 
 .Accueil {
     position: relative;
@@ -108,16 +130,72 @@ section {
 
 }
 
+@media (max-width:1076px) {
+    .Accueil{
+       display: inline-block;
+     
+    }
+    
+}
+
+@media (max-width:499px) {
+    .Accueil{
+       display: inline-block;
+       right: 20px;
+       font-size: 20px;         
+
+    }
+    .photo img {
+        width: 195px;
+        height:195px;
+       
+    }
+    
+}
+
 .Apropos {
     color: orangered;
     font-size: 30px;
     text-align: center;
+
 }
 
 p {
     color: white;
     font-size: 20px;
     text-align: left;
+}
+
+@media (max-width:880px) {
+    .Apropos{
+          height: 500px;
+     
+    }
+    
+}
+
+@media (max-width:577px) {
+    .Apropos{
+          height: 600px;
+     
+    }
+    
+}
+
+@media (max-width:476px) {
+    .Apropos{
+          height: 900px;
+     
+    }
+    
+}
+
+@media (max-width:360px) {
+    .Apropos{
+          height: 1000px;
+     
+    }
+    
 }
 
 .Mescompetencestechniques {
@@ -143,11 +221,19 @@ p {
     font-size: 20px;
     text-align: center;
 }
+
+
 .contacte.ensemble{
 display: inline-block;
 position: absolute;
 
 }
+
+.Contacte h6{
+     font-size: 20px;
+}
+
+
 .Contacte-liste i {
     display: inline-block;
     color: orange;
@@ -161,8 +247,40 @@ position: absolute;
     color: orange;
 }
 
+@media (max-width:560px) {
+            .Contacte {
+                 height: 400px;  
+                 font-size: 15px;
+                 margin-right: 30px;  
+
+          }
+                    
+                
+}
+
+@media (max-width:420px) {
+            .Contacte {
+                 height: 500px;  
+
+        }
+           .Contacte-liste i {
+                 
+}     
+                    
+                
+}
 
 .Contacte-icons{
     font-size: 40px;
-    background-color:var(--main-color);
+    background-color: var(--main-color);
 }
+
+
+@media (max-width:1073px) {
+    section{
+      margin-bottom: 200px;
+
+    }
+    
+}
+
